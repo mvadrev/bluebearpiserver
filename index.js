@@ -11,8 +11,8 @@ app.use(cors());
 
 // AWS Config
 AWS.config = new AWS.Config();
-AWS.config.accessKeyID = "AKIA2EAYODCR3F3XR6H6";
-AWS.config.secretAccesskey = "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";
+AWS.config.accessKeyID = "";
+AWS.config.secretAccesskey = "";
 AWS.config.region = "us-east-1";
 var rek = new AWS.Rekognition();
 
